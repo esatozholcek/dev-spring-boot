@@ -1,0 +1,10 @@
+@SpringBootAplication annotation is composed annotations
+	@EnableAutoConfiguration
+	@ComponentScan
+	@Configuration
+
+
+component scanning, scanning from same packas and then sub-packages
+to scan outside of the main package
+@SpringBootApplication(scanBasePackages={"com.luv2code.springcoredemo",
+					 "com.luv2code.util})

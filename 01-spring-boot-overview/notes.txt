@@ -1,0 +1,19 @@
+www.luv2code.com/actuator-docs
+
+
+
+step 1: run spring boot from terminal
+mvnw package	./mvnw package
+cd target
+dir *.jar	ls *.jar
+step 3: run app using java
+java -jar ...jar
+step 4 (way 2): run app using spring boot maven plugin
+
+
+@Component marks the classes as a Spring Bean
+  Spring Bean is just a regular Java class that is managed by Spring
+
+@Component also makes the bean available for dependency injection
+
+

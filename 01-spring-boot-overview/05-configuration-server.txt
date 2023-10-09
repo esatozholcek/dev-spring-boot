@@ -1,0 +1,26 @@
+List of common properties of Spring Boot
+www.luc2code.com/spring-boot-props
+
+# Log levels severity mapping
+logging.level.org.springframework=DEBUG
+logging.level.org.hibernate=TRACE
+logging.level.com.luv2code=INFO
+
+# Lof file name
+logging.file.name=my-crazy-stuff.log
+logging.file.path=c:/myapps/demo
+
+# Base path for actuator endpoints
+management.endpoints.web.base-path=/actuator
+
+# JDBC URL of the database
+spring.datasource.url=jdbc:mysql//localhost:3306/ecommerce
+
+# Login username of the database
+spring.datasource.username=scott
+
+# Login password of the database
+spring.database.password=tiger
+
+Spring boot logging
+www.luv2code.com/spring-boot-logging
